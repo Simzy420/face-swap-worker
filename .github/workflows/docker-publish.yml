@@ -6,7 +6,7 @@ on:
 
 jobs:
   build-and-push:
-    runs-on: gpu
+    runs-on: ubuntu-latest
     permissions:
       contents: read
       packages: write
